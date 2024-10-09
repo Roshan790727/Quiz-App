@@ -1,0 +1,49 @@
+
+.container{
+    width: 640px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    background-color: aliceblue;
+    padding: 40px 50px;
+    border-radius: 10px;
+    gap: 20px;
+}
+.container ul li{
+    display: flex;
+    align-items: center;
+    border: solid 1px;
+    padding-left: 15px;
+    height: 70px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.container button{
+   margin: auto;
+   background: #553f9a;
+   height: 65px;
+   width: 250px;
+   border-radius: 8px;
+   font-size: 25px;
+   cursor: pointer;
+   font-weight: 500;
+   color: aliceblue;
+
+    
+}
+.container p{
+    margin: auto;
+    font-size: 15px;
+}
+.container .correct{
+    background: white;
+    border-color: green;
+}
+.container .wrong{
+    background: white;
+    border-color: red;
+}
